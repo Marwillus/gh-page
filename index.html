@@ -15,10 +15,20 @@
 
 <body>
 
+  <!--back to the top button-->
   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"
       aria-hidden="true"></i></button>
 
+  <!--notification on home-button-->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>This <em>is</em> home, silly.</p>
+    </div>
 
+  </div>
+
+  <!--visible site-->
   <header id="main-header">
     <div>
       <h1>mar</h1>
@@ -32,7 +42,7 @@
     </div>
   </header>
   <nav id="navbar">
-    <a href="#" class="btn">Home</a>
+    <div id="homeBtn" class="btn">Home</div>
     <a href="#kacheln" class="btn">Repertoire</a>
     <a href="https://codepen.io/marwillus" class="btn">Codepen</a>
     <a href="#" class="btn">Contact</a>
